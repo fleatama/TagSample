@@ -4,7 +4,9 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+    #ここから追記
+    @posts = params[:tag_id].present? ? Tag.find(params[:tag_id]).posts : Post.all
+    #ここまで
   end
 
   # GET /posts/1
