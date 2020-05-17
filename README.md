@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+*
+### 元の記事
+
+## railsでタグ検索機能を実装し多対多を理解する
+
+https://qiita.com/Kairi_Yasunnde/items/935dcdb8ec88b9ed9d91
