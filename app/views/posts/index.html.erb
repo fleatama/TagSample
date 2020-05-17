@@ -24,6 +24,10 @@
   </tbody>
 </table>
 
+<% post.tags.each do |tag| %>
+  <%= tag.name %>
+<% end %>
+
 <br>
 
 <%= link_to 'New Post', new_post_path %>
