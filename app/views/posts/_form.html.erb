@@ -21,8 +21,6 @@
     <%= form.text_field :title %>
   </div>
 
-  # 省略
-  # 追記ここから
   <div class="checkbox">
     <span>タグ</span>
     <%= form.collection_check_boxes(:tag_ids, Tag.all, :id, :name) do |tag| %>
@@ -34,7 +32,6 @@
       </div>
     <% end %>
   </div>
-  # 追記ここまで
 
   <div class="actions">
     <%= form.submit %>
